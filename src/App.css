@@ -69,3 +69,22 @@
   animation:scale-up-vertical-bottom 0.5s ease-in-out 2.5s both
 } @keyframes scale-up-vertical-bottom{0%{transform:scaleY(0);transform-origin:center bottom}100%{transform:scaleY(1);transform-origin:center bottom}}
 
+.vignette {
+  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
